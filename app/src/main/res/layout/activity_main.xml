@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.ybflowlayout.YbFlowLayout
+        android:id="@+id/mYbFlow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="onClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除第一个元素并且刷新"/>
+
+    <Button
+        android:onClick="onClick2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="限定行数为2"/>
+
+    <Button
+        android:onClick="onClick3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消限定行数"/>
+</LinearLayout>
